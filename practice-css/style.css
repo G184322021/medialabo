@@ -1,8 +1,9 @@
 /* General styles */
 
 html {
+  
   font-family: 'Helvetica neue', Arial, 'sans serif';
-  font-size: 10px;
+  font-size: 16px;
 }
 
 body {
@@ -29,7 +30,7 @@ pli {
 /* header and footer */
 
 header, footer {
-  background-colour: teal;
+  background-color: teal;
   height: 10em;
   padding: 2em;
 }

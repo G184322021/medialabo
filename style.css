@@ -1,0 +1,30 @@
+/*box{
+    width:100%;
+    height:200px;
+}
+
+is-mix{
+    background-image:radial-gradient(#b4f3ea 20%,
+    transparent 20%),
+    radial-gradient(#ffbcbc 20%,
+    transparent 20%);
+}*/
+html{
+background-color:  #e0ffff;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(243, 241, 241);
+    border:5px solid rgba(72, 98, 128, 0.781);
+    padding: 2em;
+}
+h2{
+    border-bottom: 10px dotted rgba(72, 98, 128, 0.781);
+}
+h4{
+    border-bottom: 1px solid rgba(72, 98, 128, 0.781);
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
