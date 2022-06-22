@@ -3,7 +3,7 @@
 html {
   
   font-family: 'Helvetica neue', Arial, 'sans serif';
-  font-size: 10px;
+  font-size: 16px;
 }
 
 body {
@@ -22,7 +22,7 @@ h2 {
 }
 
 pli {
-  font-size: 1.7em;
+  font-size: 16px;
 }
 
 /*+++ more specific section styles +++*/
