@@ -1,42 +1,28 @@
-<table>
-    <thead>
+<!DOCTYPE html>
+<html>
+
         <link rel="stylesheet" href="pstyle.css">
-        <tr>
-            <th colspan="2">世界の天気</th>
-            </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>フランス</td>
-                    <td>晴れ</td>
-                </tr>
-                <tr>
-                    <td>日本</td>
-                    <td>雨</td>
-                </tr>
-                <tr>
-                    <td>中国</td>
-                    <td>曇り</td>
-                </tr>
-                <tr>
-                    <td>アメリカ</td>
-                    <td>晴れ</td>
-                </tr>
-                <tr>
-                    <td>イタリア</td>
-                    <td>曇り</td>
-                </tr>
-                <tr>
-                    <td>ハワイ</td>
-                    <td>雷雨</td>
-                </tr>
-                <tr>
-                    <td>韓国</td>
-                    <td>雨</td>
-                </tr>
-                <tr>
-                    <td>イギリス</td>
-                    <td>曇り</td>
-                </tr>
-            </tbody>
-            </table>
+        <script src="weather.js" defer></script>
+        <body>
+            <h1>🌞 世界の天気 ☔</h1>
+            <p>
+            <select name="genre" id="genre">
+                <option disabled selected>首都を選ぶ</option>
+                <option value="ca">カイロ (エジプト)</option>
+                <option value="chineseFoods">モスクワ（ロシア）</option>
+                <option value="italianFoods">北京（中華人民共和国）</option>
+                <option value="japaneseFoods">東京（日本）</option>
+                <option value="chineseFoods">シンガポール（シンガポール共和国）</option>
+                <option value="japaneseFoods">シドニー（オーストラリア）</option>
+                <option value="italianFoods">ロンドン（イギリス）</option>
+                <option value="japaneseFoods">パリ（フランス）</option>
+                <option value="chineseFoods">リオデジャネイロ（ブラジル）</option>
+                <option value="italianFoods">ニューヨーク（アメリカ合衆国　東側）</option>
+                <option value="japaneseFoods">ロサンゼルス（アメリカ合衆国　西側）</option>
+              </select>
+              <button id="print">🔍</button>
+            </p>
+        </body>
+           
+            </html>
+            

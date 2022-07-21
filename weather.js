@@ -46,4 +46,4 @@ let data = {
 };
 
 ////////// 課題3-2 ここからプログラムを書こう
-console.lpg(data.name+", "+data.main.temp_max+", "+data.main.temp_min);
+console.log(data.name+", "+data.main.temp_max+", "+data.main.temp_min);
