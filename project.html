@@ -1,28 +1,76 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Project</title>
+    <link rel="stylesheet" href="pstyle.css">
+    <script src="weather.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+  </head>
 
-        <link rel="stylesheet" href="pstyle.css">
-        <script src="weather.js" defer></script>
-        <body>
-            <h1>🌞 世界の天気 ☔</h1>
-            <p>
-            <select name="genre" id="genre">
-                <option disabled selected>首都を選ぶ</option>
-                <option value="ca">カイロ (エジプト)</option>
-                <option value="chineseFoods">モスクワ（ロシア）</option>
-                <option value="italianFoods">北京（中華人民共和国）</option>
-                <option value="japaneseFoods">東京（日本）</option>
-                <option value="chineseFoods">シンガポール（シンガポール共和国）</option>
-                <option value="japaneseFoods">シドニー（オーストラリア）</option>
-                <option value="italianFoods">ロンドン（イギリス）</option>
-                <option value="japaneseFoods">パリ（フランス）</option>
-                <option value="chineseFoods">リオデジャネイロ（ブラジル）</option>
-                <option value="italianFoods">ニューヨーク（アメリカ合衆国　東側）</option>
-                <option value="japaneseFoods">ロサンゼルス（アメリカ合衆国　西側）</option>
-              </select>
-              <button id="print">🔍</button>
-            </p>
-        </body>
+  <body class="body">
+    <!-- put navigation menu just below here -->
+      <div id="h1" class="h1">🌞 世界の天気 ☔</h1></div>
+      <div class="h2">
+        <p>
+          <select name="tenki" id="tenki">
+            <option value="">都市を選ぶ</option>
+            <option value="360630">カイロ （エジプト）</option>
+            <option value="524901">モスクワ （ロシア）</option>
+            <option value="993800">ヨハネスブルク （南アフリカ）</option>
+            <option value="1816670">北京 （中華人民共和国）</option>
+            <option value="1850147">東京 （日本）</option>
+            <option value="1880252">シンガポール</option>
+            <option value="2147714">シドニー （オーストラリア）</option>
+            <option value="2643743">ロンドン （イギリス）</option>
+            <option value="2968815">パリ （フランス）</option>
+            <option value="3451189">リオデジャネイロ （ブラジル）</option>
+            <option value="5128581">ニューヨーク （アメリカ合衆国）</option>
+            <option value="5368361">ロサンゼルス （アメリカ合衆国）</option>
+          </select>
+        <button id="kensaku" class="kensaku">🔍</button>
+        </p>
+      </div>
+ 
+    
+        
+        <div class="box1">
+          <h2 class="K1"><span id="data1"></span> <span id="weather"></span></h2>
+
+          <div class="box2">
+            <!--
+              <div class="jpeg" id="jpeg"></div>
+            -->
+
            
-            </html>
-            
+
+        <div class="box3">
+            <p>
+              <span id="temp"></span>
+              <br>
+              <span id="max"></span>
+              <br>
+              <span id="min"></span>
+              <br>
+              <span id="humidity"></span>
+              <br>
+               <span id="dataA"></span>
+               <br>
+               <span id="dataB"></span>
+               <br>
+              <span id="dataC"></span>
+              <br>
+              <span id="dataD"></span>
+              </p>
+
+              </div>
+               <img id="image_place" src="">
+            </div>
+          </div>
+      
+
+      
+    
+  
+  </body>
+</html>
